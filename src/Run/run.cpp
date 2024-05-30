@@ -12,6 +12,7 @@ int current_direction = 0;
 */
 
 void Go(){
+    
     current_direction = get_direction();
     while (current_direction == 0){
         current_direction = get_direction();
@@ -28,5 +29,5 @@ void Go(){
         default:
             Serial.println("Something went wrong trying to run");
         }
-    Forward(1);
+    Forward(70);
 }

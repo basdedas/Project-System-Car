@@ -7,6 +7,7 @@
 #include <Steering/steering.h>
 #include <Pins/pins.h>
 #include <HS Sensor/hs.h>
+#include <Servo/servo.h>
 
 extern int current_direction;
 

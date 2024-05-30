@@ -2,7 +2,7 @@
 
 void Forward(int speed){
     int i;
-    for(i = 0; i <= 100; i += speed){ 
+    for(i = 0; i <= speed; i += 20){ 
         analogWrite(R_PWM, i);
         analogWrite(L_PWM, 0);
   }

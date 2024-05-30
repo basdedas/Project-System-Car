@@ -10,6 +10,8 @@ extern Servo steering;
 
 const int RIR = A0; 
 const int LIR = A1; 
+const int MIR = A2;
+
 const int TRIG = 23; 
 const int ECHO = 25; 
 const int SERVO = 8; 

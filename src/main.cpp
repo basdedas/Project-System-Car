@@ -9,12 +9,10 @@ void setup() {
 void loop() {
   long current_distance = get_distance();
 
-  if (current_distance > 30) {
+  if (current_distance >= 70) {
     Go();  // If distance is greater than 30 cm, continue moving
   } else {
-    Serial.println("OOOOOPS, TOO CLOSE!!!!");
-    Stop();  // If distance is less than or equal to 30 cm, stop moving
+    Serial.println("Obstacle detected");
+    obstacleAvoidance();
   }
 }
-
-

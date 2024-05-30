@@ -7,6 +7,7 @@ void Initialize(){
     
   pinMode(RIR, INPUT);
   pinMode(LIR, INPUT);
+  pinMode(MIR, INPUT);
   pinMode(TRIG, OUTPUT);
   pinMode(ECHO, INPUT);
   pinMode(R_IS, OUTPUT);

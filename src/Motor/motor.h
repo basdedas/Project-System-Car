@@ -4,7 +4,7 @@
 #include <Pins/pins.h>
 
 //Functions
-void Forward(int speed);\
+void Forward(int speed);
 void Stop();
 
 #endif
